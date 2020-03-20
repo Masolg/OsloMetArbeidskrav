@@ -1,0 +1,248 @@
+@font-face{
+    font-family: Roboto;
+    src: url("../fonts/Roboto/Roboto-Regular.ttf");
+}
+
+@font-face{
+    font-family: Bellota;
+    src: url("../fonts/Bellota/Bellota-Regular.ttf");
+}
+
+@font-face{
+    font-family: Montserrat;
+    src: url("../fonts/Montserrat/Montserrat-Regular.ttf");
+}
+
+html{
+    width: 100%;
+}
+
+body{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat;
+}
+
+header{
+    background-image: url(../images/header.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    font-family: Roboto;
+    font-size: 22px;
+}
+
+header .header .logonav{
+    display: flex;
+    width: 100%;
+}
+
+header .header .logonav .logo{
+    flex: 1;
+    text-align: center;
+    padding-top: 10px;
+}
+
+header .header .logonav .logo h1{
+    display: none;
+}
+
+header .header .logonav .logo img{
+    height: 70%;
+}
+
+header .header .logonav .navbar{
+    flex: 2;
+}
+
+header .header .logonav .navbar nav ul{
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+header .header .logonav .navbar nav ul li{
+    flex: 1;
+    margin-top: 35px;
+}
+
+header .header .logonav .navbar nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+header .header .logonav .navbar nav ul li a:hover{
+    color: #006837;
+}
+
+header .header .logonav .navbar nav ul li a:active{
+    color: #FF0000;
+}
+
+header .header h2{
+    font-size: 45px;
+    font-family: Bellota;
+    color: white;
+    margin: 90px;
+}
+
+main{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+main #meny{
+    background-color: #FEFAF7;
+    padding-bottom: 15px;
+}
+
+main #meny h2{
+    text-align: center;
+    font-family: Bellota;
+    padding-top: 30px;
+    margin-top: 0;
+}
+
+main #meny table{
+    text-align: left;
+    width: 90%;
+    margin: 0;
+    margin: auto;
+    padding: 0;
+}
+
+main #meny table tr{
+    width: 100%;
+}
+
+main #meny table th{
+    font-family: Bellota;
+    font-size: 17px;
+    width: 20%;
+}
+
+main #meny table td{
+    width: 20%;
+}
+
+main #book{
+    background-color: #F6F0F3;
+    padding-bottom: 15px;
+}
+
+main #book h2{
+    font-family: Bellota;
+    text-align: center;
+    padding-top: 30px;
+    margin-top: 0;
+}
+
+main #book form{
+    text-align: center;
+}
+
+main #book form input[type="text"]{
+    border: #000000 1px solid;
+    padding: 6px;
+    width: 40%;
+    margin-bottom: 10px;
+}
+
+main #book form input[type="text"]:focus{
+    border: #000000 2px solid;
+}
+
+main #book form input[type="date"]{
+    border: #000000 1px solid;
+    padding: 6px;
+    margin-bottom: 10px;
+}
+
+main #book form input[type="date"]:focus{
+    border: #000000 2px solid;
+}
+
+main #book form input[type="number"]{
+    border: #000000 1px solid;
+    padding: 6px;
+    margin-bottom: 10px;
+}
+
+main #book form input[type="number"]:focus{
+    border: #000000 2px solid;
+}
+
+main #book form input[type="submit"]{
+    border: #000000 1px solid;
+    padding: 6px;
+    margin-bottom: 10px;
+    width: 10%;
+    background-color: #006837;
+    color: white;
+}
+
+main #book form input[type="submit"]:hover{
+    background-color: forestgreen;
+    cursor: pointer;
+}
+
+main #om{
+    background-color: #FEFAF7;
+    padding-bottom: 15px;
+}
+
+main #om h2{
+    font-family: Bellota;
+    text-align: center;
+    padding-top: 30px;
+    margin-top: 0;
+}
+
+main #om .tekstogbilde{
+     display: flex;
+    width: 70%;
+    margin: auto;
+}
+
+main #om .tekst{
+    flex: 3;
+}
+
+main #om .tekst p{
+    font-size: 17px;
+    width: 70%;
+    margin-left: 20px;
+}
+
+main #om .bilde{
+    flex: 1;
+}
+
+footer{
+    width: 100%;
+    background-color: #E3DEE1;
+    padding-bottom: 20px;
+}
+
+footer .contact ul{
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+footer .contact ul li{
+    list-style: none;
+}
+
+footer .contact h3{
+    font-family: Bellota;
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 0;
+}
